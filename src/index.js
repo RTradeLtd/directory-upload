@@ -24,6 +24,10 @@ api.addFromFs(directory, { recursive: true }, function (err, response) {
         console.error(err, err.stack);
     }
     else {
-        console.log(response);
+        response.forEach(function (element) {
+            if (element.path == directory) {
+                console.log("root directory hash: ", element.hash);
+            }
+        });
     }
 });
