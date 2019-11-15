@@ -1,0 +1,28 @@
+{
+  "name": "directory-upload",
+  "version": "1.0.0",
+  "description": "uploads directory to Temporal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTradeLtd/directory-upload.git"
+  },
+  "keywords": [
+    "ipfs",
+    "temporal",
+    "directory"
+  ],
+  "author": "bonedaddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RTradeLtd/directory-upload/issues"
+  },
+  "homepage": "https://github.com/RTradeLtd/directory-upload#readme",
+  "dependencies": {
+    "@types/node": "^12.12.7",
+    "ipfs-http-client": "^39.0.2"
+  }
+}
