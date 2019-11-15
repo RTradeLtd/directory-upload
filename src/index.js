@@ -25,9 +25,6 @@ for (var i = 0; i < args.length; i++) {
             pass = args[i + 1];
     }
 }
-console.log("directory: ", directory);
-console.log("user: ", user);
-console.log("pass: ", pass);
 temporaljs.login(user, pass)
     .then(function () {
     var token = temporaljs.token;

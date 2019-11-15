@@ -1,6 +1,5 @@
 import ipfsapi from "ipfs-http-client";
 import Temporal from "./temporal-js";
-import axios from 'axios';
 
 let temporaljs = new Temporal();
 let jwt: string = process.env.TEMPORAL_JWT;
@@ -24,11 +23,6 @@ for (var i = 0; i < args.length; i++) {
             pass = args[i+1]
     }
 }
-
-console.log("directory: ", directory);
-console.log("user: ", user);
-console.log("pass: ", pass);
-
 
 temporaljs.login(user, pass)
  .then(() => {
