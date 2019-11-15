@@ -23,6 +23,9 @@
   "homepage": "https://github.com/RTradeLtd/directory-upload#readme",
   "dependencies": {
     "@types/node": "^12.12.7",
-    "ipfs-http-client": "^39.0.2"
+    "axios": "^0.19.0",
+    "ipfs-http-client": "^39.0.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
   }
 }
