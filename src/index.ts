@@ -8,11 +8,11 @@ let directory: string;
 let user: string;
 let pass: string;
 
-if (args.length < 2) {
+if (args.length < 6) {
     console.log("error: invalid number of arguments");
+    console.log("example: node index.js --dir ... --user ... --pass ...")
     process.exit();
 }
-
 for (var i = 0; i < args.length; i++) {
     switch (args[i]) {
         case "--dir":
