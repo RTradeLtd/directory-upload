@@ -44,13 +44,12 @@ temporaljs.login(user, pass)
             authorization: 'Bearer ' + token
         }
     });
-    
     api.addFromFs(directory, { recursive: true },  function (err, response) {
         if (err) {
             console.error(err, err.stack)
         } else {
             response.forEach(element => {
-                if (element.path == directory) {
+                if (directory.includes(element.path)) {
                     console.log("root directory hash: ", element.hash);
                 }
             });

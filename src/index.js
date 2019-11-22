@@ -52,7 +52,7 @@ temporaljs.login(user, pass)
         }
         else {
             response.forEach(function (element) {
-                if (element.path == directory) {
+                if (directory.includes(element.path)) {
                     console.log("root directory hash: ", element.hash);
                 }
             });

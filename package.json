@@ -21,7 +21,7 @@
   "dependencies": {
     "@types/node": "^12.12.7",
     "axios": "^0.19.0",
-    "ipfs-http-client": "^39.0.2",
+    "ipfs-http-client": "^40.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8"
   }
