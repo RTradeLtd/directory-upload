@@ -1,3 +1,0 @@
-[submodule "src/temporal-js"]
-	path = src/temporal-js
-	url = https://github.com/clemlak/temporal-js.git
